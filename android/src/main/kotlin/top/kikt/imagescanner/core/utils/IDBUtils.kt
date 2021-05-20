@@ -25,7 +25,7 @@ interface IDBUtils {
 
   companion object {
     val isAndroidQ = Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q
-    val isAndroidR = Build.VERSION.SDK_INT >= Build.VERSION_CODES.R
+    val isAndroidR = Build.VERSION.SDK_INT >= 30
 
     val storeImageKeys = arrayOf(
         MediaStore.MediaColumns.DISPLAY_NAME, // 显示的名字

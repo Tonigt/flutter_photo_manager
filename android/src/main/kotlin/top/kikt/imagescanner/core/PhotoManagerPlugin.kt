@@ -353,7 +353,7 @@ class PhotoManagerPlugin(
             val uris = ids.map {
               photoManager.getUri(it)
             }.toList()
-            if (Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.R) {
+            if (Build.VERSION.SDK_INT >= 30) {
               deleteManager.deleteInApi30(uris, resultHandler)
             }
           } else {

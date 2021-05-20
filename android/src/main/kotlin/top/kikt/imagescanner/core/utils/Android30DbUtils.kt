@@ -32,7 +32,7 @@ import kotlin.concurrent.withLock
 
 /// create 2020-09-23 by cai
 @Suppress("DEPRECATION")
-@RequiresApi(Build.VERSION_CODES.R)
+@RequiresApi(30)
 @SuppressLint("Recycle")
 object Android30DbUtils : IDBUtils {
   private const val TAG = "PhotoManagerPlugin"
